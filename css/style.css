@@ -1,0 +1,68 @@
+/*
+ * style.css
+ * Copyright (C) 2017 Martine Lenders
+ *
+ * Distributed under terms of the CC-BY-SA 4.0 license.
+ */
+
+body {
+  font-family: 'Arial';
+  font-size: 18pt;
+}
+h1, h2, h3 {
+  font-family: 'Arial';
+  font-weight: bold;
+}
+h1 {
+  color: rgb(0, 51, 102);
+  font-size: 30pt;
+}
+a {
+  color: rgb(0, 102, 204);
+}
+em {
+  font-style: normal;
+  font-weight: bold;
+}
+.remark-slide {
+  background-image: url("../figs/fu-logo.svg");
+  background-color: #fff;
+  background-position: right top;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.remark-slide-content {
+  background: none;
+  font-size: 18pt;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 0.5em;
+}
+.remark-slide-number {
+  background-color: rgb(204, 214, 224);
+  color: rgb(95, 95, 95);
+  font-family: 'Arial';
+  font-size: 10pt;
+  font-weight: bold;
+  right: 0pt;
+  bottom: 0pt;
+  text-align: right;
+  width: 100%;
+  padding: 3pt 3em;
+}
+.remark-code, .remark-inline-code { font-family: 'monospace'; }
+#slide-title-slide, #slide-title-slide-cover {
+  background-image: url('../figs/cover.png');
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 265px;
+}
+#slide-title-slide, #slide-title-slide-cover h1 {
+  font-size: 44pt;
+  margin-top: 0.5em;
+  margin-bottom: 66pt;
+}
+#slide-title-slide, #slide-title-slide-cover h2 {
+  font-size: 28pt;
+  color: rgb(0, 102, 204);
+}
