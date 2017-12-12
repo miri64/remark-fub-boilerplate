@@ -17,7 +17,7 @@ for a title slide with a cover image or
 name: title-slide
 ```
 
-for a title without a cover image.
+for a title slide without a cover image.
 
 To modify the cover image, replace the `figs/cover.png` with a 250x250 PNG.
 
